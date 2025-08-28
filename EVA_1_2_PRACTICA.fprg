@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_2_PRACTICA"/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 03:28:25 p. m."/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1EVFBLOFFEOzIwMjUtMDgtMjg7MDM6MjQ6MjkgcC4gbS47MzA2Mg=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1EVFBLOFFEOzIwMjUtMDgtMjg7MDM6Mjg6MjUgcC4gbS47MTszMTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ruben Hernandez&quot;" newline="True"/>
+            <output expression="1000" newline="True"/>
+            <output expression="&quot;Numero entero&quot;" newline="True"/>
+            <output expression="&quot;Numero decimal&quot;" newline="True"/>
+            <output expression="&quot;Verdadero&quot;" newline="True"/>
+            <output expression="&quot;A&quot;" newline="True"/>
+            <output expression="&quot;A&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

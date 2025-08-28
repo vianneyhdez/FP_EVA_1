@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_3_PRACTICA"/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-27 10:49:19 p. m."/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1EVFBLOFFEOzIwMjUtMDgtMjc7MTA6Mjg6MDkgcC4gbS47MzA2MQ=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1EVFBLOFFEOzIwMjUtMDgtMjc7MTA6NDk6MTkgcC4gbS47MTszMTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NOMBRE DEL ESTUDIANTE&quot;" newline="True"/>
+            <output expression="&quot;VIANNEY HERNANDEZ&quot;" newline="True"/>
+            <output expression="&quot;NUMERO DE CONTROL&quot;" newline="True"/>
+            <output expression="25550713" newline="True"/>
+            <output expression="&quot;EDAD&quot;" newline="True"/>
+            <output expression="&quot;18&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
