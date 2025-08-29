@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva_1_10;
+
+/**
+ *
+ * @author Diego
+ */
+public class EVA_1_10 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //CONVERSIÓN DE KELVIN A CELSIUS
+        //FÓRMULA: °C = K - 273
+        double kelvin, celsius; //variables de tipo double
+        //INICIALIZACIÓN 
+        kelvin = 300; //valor de ejemplo kelvin
+        celsius = kelvin - 273; 
+         System.out.println("Temperatura en kelvin:" + kelvin + "K");
+        System.out.println("Temperatura en celsius" + celsius + "°C");
+    }
+    
+}
