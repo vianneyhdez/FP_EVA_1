@@ -1,0 +1,40 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva_1_20_ine;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Diego
+ */
+public class EVA_1_20_INE {
+
+    // CONSTANTES
+    final static String EDAD = "19";
+    final static String CREDENCIAL = "1234";
+
+    public static void main(String[] args) {
+        Scanner captu = new Scanner(System.in);
+
+        System.out.println("CONTROL DE ACCESO ANTRO");
+        System.out.println("LOU LOU");
+        System.out.println("Ingrese sus datos para poder entrar");
+
+        // Captura de datos
+        System.out.print("EDAD: ");
+        String ineIngresado = captu.nextLine();
+
+        System.out.print("Numero de Credencial de Elector: ");
+        String credencialIngresada = captu.nextLine();
+
+        // Validación
+        if (ineIngresado.equals(EDAD) && credencialIngresada.equals(CREDENCIAL)) {
+            System.out.println("PUEDES ENTRAR - DATOS CORRECTOS");
+        } else {
+            System.out.println("NO PUEDES ENTRAR - DATOS INCORRECTOS");
+        }
+    }
+}
