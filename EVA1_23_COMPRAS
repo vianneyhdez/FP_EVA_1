@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva1_23_compras;
+
+import java.util.Scanner;
+
+public class EVA1_23_COMPRAS {
+
+    public static void main(String[] args) {
+       Scanner captu = new Scanner(System.in);
+       String credito, efectivo;
+       System.out.println("¿Tienes dinero? (S/N)");
+       efectivo = captu.nextLine();
+       System.out.println("¿Tienes credito? (S/N)");
+       credito = captu.nextLine();
+       if((efectivo.equals("S")) || (credito.equals("S"))){
+           System.out.println("Puedes comprar!");
+       }else{
+           System.out.println("No puedes comprar!");
+       }
+    }
+    
+}

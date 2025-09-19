@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva1_21_;
+
+public class EVA1_21_ {
+
+    public static void main(String[] args) {
+        int num1 = 1, num2 = 2;
+        
+        if(num1 > num2); //error, termina el if
+            System.out.println("ups, fuera del if");
+        if(num1 > num2)
+            if(num1 > num2)
+           System.out.println("num1 es mayor");
+        else//parece que pertenece el primer if, pero es
+             System.out.println("num2 es mayor");
+        
+        if(num1 > num2){
+            if(num1 > num2)
+                System.out.println("num1 es mayor");
+        }else{//PERTENECE AL PRIMER IF
+                System.out.println("num2 es mayor");
+        }
+    }
+}
